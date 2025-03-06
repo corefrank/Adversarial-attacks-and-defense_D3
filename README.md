@@ -1,4 +1,27 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/57gOwgPd)
+# 2-stage project
+- Stage-1: (2 weeks)
+  - Train a basic classifier
+   - Dataset: CIFAR-10
+   - Basic Architecture: (Conv+MaxPool+Conv+FC+FC+FC)
+  - Implement attack mechanisms
+   - FGSM
+   - PGD
+  - Implement Adversarial Training
+- Stage-2: innovate
+  - consider new defense mechanisms (e.g. randomized networks, lipschitz regularization,
+models robust against multiple defense mechanisms, etc. see refs)
+  - consider new attack mechanisms
+  - test and experiment
+
+# teammates 
+Nan An, Hangyue Zhao, Lucas Hennecon
+
+
+
+
+
+
+
 This is a basic code repository for Assignment 3.
 
 The repository contains a basic model and a basic training and testing
