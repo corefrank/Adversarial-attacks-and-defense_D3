@@ -1,17 +1,32 @@
-# 2-stage project
-- Stage-1: (2 weeks)
-  - Train a basic classifier
-   - Dataset: CIFAR-10
-   - Basic Architecture: (Conv+MaxPool+Conv+FC+FC+FC)
-  - Implement attack mechanisms
-   - FGSM
-   - PGD
-  - Implement Adversarial Training
-- Stage-2: innovate
-  - consider new defense mechanisms (e.g. randomized networks, lipschitz regularization,
-models robust against multiple defense mechanisms, etc. see refs)
-  - consider new attack mechanisms
-  - test and experiment
+# CIFAR-10 Adversarial Robustness Project
+
+This project explores adversarial robustness in deep learning models using the CIFAR-10 dataset. The project is divided into two stages:
+
+## **Stage 1: Baseline Classification & Adversarial Attacks**
+1. **Train a basic classifier**  
+   - **Dataset**: CIFAR-10  
+   - **Model Architecture**: `Conv → MaxPool → Conv → FC → FC → FC`
+2. **Implement adversarial attack mechanisms**  
+   - **FGSM** (Fast Gradient Sign Method)  
+   - **PGD** (Projected Gradient Descent)  
+3. **Implement adversarial training**  
+   - Train a robust model by incorporating adversarial examples.
+
+---
+
+## **Stage 2: Defense and Attack Innovations**
+1. **Experiment with new defense mechanisms**  
+   - Randomized networks  
+   - Lipschitz regularization  
+   - Models robust against multiple attack mechanisms  
+2. **Experiment with new attack mechanisms**  
+   - Stronger adaptive adversarial attacks  
+3. **Test and analyze experimental results**  
+
+---
+
+## **Project Structure**
+
 
 # teammates 
 Nan An, Hangyue Zhao, Lucas Hennecon
