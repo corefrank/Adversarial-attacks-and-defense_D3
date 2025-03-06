@@ -10,7 +10,7 @@
 3. **Implement adversarial training**  
    
 
----
+
 
 ## **Stage 2: Defense and Attack Innovations**
 1. consider new defense mechanisms (e.g. randomized networks, lipschitz regularization,
